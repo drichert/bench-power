@@ -5,6 +5,333 @@
 	(uuid "7d945acc-eebf-4bd3-96a2-bce5a0d85bfc")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:DIN-5_180degree"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 3.175 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DIN-5_180degree"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "5-pin DIN connector (5-pin DIN-5 stereo)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "circular DIN connector stereo audio"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIN*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DIN-5_180degree_0_1"
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -4.318 2.54) (xy -2.794 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.556 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.048 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.286 2.286)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -4.953) (xy -0.762 -4.191) (xy 0.762 -4.191) (xy 0.762 -4.953)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 0)
+					(mid 3.8673 -3.3444)
+					(end 0.762 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 3.302)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 0)
+					(mid 0 5.0579)
+					(end 5.08 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.762 -5.08)
+					(mid -3.8597 -3.3379)
+					(end -5.08 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.286 2.286)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.048 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 4.318 2.54) (xy 2.794 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 3.556 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "DIN-5_180degree_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Audio:AudioJack2"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1765,410 +2092,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "drichert:MeanWell-GP25A-DIN-5_180degree"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 3.175 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MeanWell-GP25A-DIN-5_180degree"
-				(at 19.812 9.144 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "5-pin DIN connector (5-pin DIN-5 stereo)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "circular DIN connector stereo audio"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DIN*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MeanWell-GP25A-DIN-5_180degree_0_1"
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy -4.318 2.54) (xy -2.794 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -3.556 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -3.048 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.286 2.286)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 -4.953) (xy -0.762 -4.191) (xy 0.762 -4.191) (xy 0.762 -4.953)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 5.08 0)
-					(mid 3.8673 -3.3444)
-					(end 0.762 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 3.302)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -5.08 0)
-					(mid 0 5.0579)
-					(end 5.08 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.8746)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy -0.0011 -3.5029)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -3.81)
-					(radius 0.0001)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.762 -5.08)
-					(mid -3.8597 -3.3379)
-					(end -5.08 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.286 2.286)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.048 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 4.318 2.54) (xy 2.794 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 3.556 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MeanWell-GP25A-DIN-5_180degree_1_1"
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "-12V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "COM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "COM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "FG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "+12V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "+5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers
@@ -2924,12 +2847,6 @@
 		(uuid "1146af79-74e6-4661-8d14-80564ed72ca0")
 	)
 	(junction
-		(at 63.5 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "195e98a2-6ea6-45fa-9693-10abf8e622f6")
-	)
-	(junction
 		(at 95.25 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2964,12 +2881,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e9fa63d-3048-4bea-9f1d-7b6f507ac0c3")
-	)
-	(junction
-		(at 69.85 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "42e21123-44ea-42bb-ab38-a134f64858cb")
 	)
 	(junction
 		(at 78.74 163.83)
@@ -3110,6 +3021,12 @@
 		(uuid "c7997228-b802-4625-a200-8562f559e0d8")
 	)
 	(junction
+		(at 48.26 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbb6a1a1-358c-447e-9878-3f0b2b4629ff")
+	)
+	(junction
 		(at 123.19 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3158,6 +3075,12 @@
 		(uuid "f5bad03d-40a8-44c8-90b4-901a6ac1abab")
 	)
 	(junction
+		(at 55.88 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f79c8158-fd4c-4c65-ad9d-eae52290377a")
+	)
+	(junction
 		(at 95.25 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3203,6 +3126,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 95.25) (xy 55.88 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0774c5f3-01b4-42da-8a34-ac8de4cc6943")
+	)
+	(wire
+		(pts
 			(xy 123.19 139.7) (xy 123.19 152.4)
 		)
 		(stroke
@@ -3223,7 +3156,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 67.31) (xy 106.68 67.31)
+			(xy 66.04 67.31) (xy 106.68 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3283,7 +3216,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 80.01) (xy 71.12 67.31)
+			(xy 66.04 80.01) (xy 66.04 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3573,16 +3506,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 72.39) (xy 63.5 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5468cb59-6821-432b-b9f8-bb71da081eef")
-	)
-	(wire
-		(pts
 			(xy 118.11 67.31) (xy 123.19 67.31)
 		)
 		(stroke
@@ -3663,17 +3586,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 88.9) (xy 69.85 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "676ba075-6bb7-477a-bd0c-5fb62d3f8eea")
-	)
-	(wire
-		(pts
-			(xy 55.88 88.9) (xy 63.5 88.9)
+			(xy 55.88 95.25) (xy 48.26 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3913,7 +3826,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 87.63) (xy 69.85 88.9)
+			(xy 48.26 95.25) (xy 48.26 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3953,16 +3866,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 80.01) (xy 55.88 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4bf8e4b-e08a-4b62-aba5-e28f5aeed1c1")
-	)
-	(wire
-		(pts
 			(xy 63.5 144.78) (xy 74.93 144.78)
 		)
 		(stroke
@@ -3970,16 +3873,6 @@
 			(type default)
 		)
 		(uuid "a555688e-bef1-4ce5-b776-89f5a4d8d6d9")
-	)
-	(wire
-		(pts
-			(xy 48.26 72.39) (xy 48.26 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6d829a6-0ec4-4858-9d32-a24fa1c2a63e")
 	)
 	(wire
 		(pts
@@ -4033,7 +3926,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 80.01) (xy 71.12 80.01)
+			(xy 58.42 80.01) (xy 66.04 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4143,6 +4036,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 80.01) (xy 55.88 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8944d7d-6c57-424f-bc73-dceb4b73fd32")
+	)
+	(wire
+		(pts
 			(xy 115.57 128.27) (xy 115.57 139.7)
 		)
 		(stroke
@@ -4150,6 +4053,16 @@
 			(type default)
 		)
 		(uuid "c9ecddbc-3219-4dfa-a4b7-19b2750ffdce")
+	)
+	(wire
+		(pts
+			(xy 55.88 95.25) (xy 55.88 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca5c4f07-9f11-40a0-ab6c-e508acfb6695")
 	)
 	(wire
 		(pts
@@ -4393,16 +4306,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 88.9) (xy 69.85 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f463182e-d26e-45d1-8992-d58b0fdcf2de")
-	)
-	(wire
-		(pts
 			(xy 92.71 163.83) (xy 97.79 163.83)
 		)
 		(stroke
@@ -4441,65 +4344,65 @@
 		)
 		(uuid "fc5ea760-a8c0-4774-8bda-b0b47c329b3a")
 	)
-	(label "+5Vout"
-		(at 57.15 62.23 0)
+	(label "CHASSIS"
+		(at 57.15 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "285e42a8-a109-4328-8932-429bc0063964")
+		(uuid "09a8a97b-27af-4a0b-baac-e4035cb26c58")
 	)
 	(label "+Vout"
-		(at 60.96 64.77 0)
+		(at 58.718 67.6652 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "2a972eae-8df3-4dcd-8f14-202c56bbbdf7")
+		(uuid "267a30a1-ceb6-4e50-8927-a02204154775")
 	)
 	(label "COM"
-		(at 55.88 82.55 0)
+		(at 49.8194 79.3739 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "b5d505db-067f-4f38-a0ee-58d42801ba0c")
+		(uuid "4bc18e83-97d7-41e8-b3da-c64f2001f69b")
 	)
 	(label "COM"
-		(at 63.5 74.93 0)
+		(at 60.8468 74.6053 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "b6d38f8e-ffd8-483c-9726-1cba8aaf9736")
+		(uuid "98e1fa6b-0ab8-4727-a18c-ffb179a139bf")
+	)
+	(label "+5VDC"
+		(at 46.99 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "be59932b-df0b-4317-bee4-43c4c884e217")
 	)
 	(label "-Vout"
-		(at 59.69 80.01 0)
+		(at 58.42 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c8451fbe-59ed-46d6-87d7-cd511771236e")
-	)
-	(label "FG"
-		(at 48.26 73.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dba940c8-48a9-4134-9d3f-000fb1a02f69")
+		(uuid "d38f9678-2151-4688-be3b-839d94e81b81")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4635,16 +4538,16 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 48.26 74.93 0)
-		(mirror y)
+		(at 55.88 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "1208eb18-83f8-4569-b6e6-5b21b8263286")
 		(property "Reference" "#PWR05"
-			(at 48.26 81.28 0)
+			(at 55.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4652,8 +4555,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "CHASSIS"
-			(at 48.26 79.502 0)
+		(property "Value" "Earth"
+			(at 55.88 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4661,7 +4564,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 74.93 0)
+			(at 55.88 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4670,7 +4573,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 74.93 0)
+			(at 55.88 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4679,7 +4582,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 48.26 74.93 0)
+			(at 55.88 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4691,7 +4594,7 @@
 			(uuid "05966bd7-22cf-4022-8d49-d088adf56ab5")
 		)
 		(instances
-			(project "bench-power"
+			(project ""
 				(path "/7d945acc-eebf-4bd3-96a2-bce5a0d85bfc"
 					(reference "#PWR05")
 					(unit 1)
@@ -5741,7 +5644,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 90.17 0)
+		(at 48.26 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5749,7 +5652,7 @@
 		(dnp no)
 		(uuid "3de595d2-de33-48f7-88a5-c66a95e232c1")
 		(property "Reference" "#PWR011"
-			(at 69.85 96.52 0)
+			(at 48.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5758,7 +5661,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 95.25 0)
+			(at 48.26 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5766,7 +5669,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 90.17 0)
+			(at 48.26 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5775,7 +5678,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 90.17 0)
+			(at 48.26 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5784,7 +5687,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 90.17 0)
+			(at 48.26 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5942,7 +5845,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 69.85 87.63 0)
+		(at 48.26 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5950,7 +5853,7 @@
 		(dnp no)
 		(uuid "4a515cbd-b748-403f-9cfa-e0972c74aeec")
 		(property "Reference" "#FLG04"
-			(at 69.85 85.725 0)
+			(at 48.26 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5959,7 +5862,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 64.77 84.074 0)
+			(at 43.18 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5968,7 +5871,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 87.63 0)
+			(at 48.26 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5977,7 +5880,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 87.63 0)
+			(at 48.26 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5986,7 +5889,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 69.85 87.63 0)
+			(at 48.26 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7360,6 +7263,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 55.88 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca426975-7373-412f-a238-411ec1ec5b6f")
+		(property "Reference" "FB1"
+			(at 59.436 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100@100MHz"
+			(at 57.658 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_THT:L_Axial_L5.3mm_D2.2mm_P7.62mm_Horizontal_Vishay_IM-1"
+			(at 54.102 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 55.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "352f3bd9-60f3-4984-8518-fecf1b1348a2")
+		)
+		(pin "1"
+			(uuid "8a84032d-31d4-4bba-88b5-45ccbd8a4073")
+		)
+		(instances
+			(project ""
+				(path "/7d945acc-eebf-4bd3-96a2-bce5a0d85bfc"
+					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 82.55 114.3 90)
 		(unit 1)
@@ -8065,7 +8037,7 @@
 		)
 	)
 	(symbol
-		(lib_id "drichert:MeanWell-GP25A-DIN-5_180degree")
+		(lib_id "Connector:DIN-5_180degree")
 		(at 55.88 72.39 270)
 		(mirror x)
 		(unit 1)
@@ -8075,7 +8047,7 @@
 		(dnp no)
 		(uuid "fa361500-b517-4970-bb26-36c01b3de275")
 		(property "Reference" "J4"
-			(at 48.514 66.548 90)
+			(at 48.514 70.866 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8083,7 +8055,7 @@
 			)
 		)
 		(property "Value" "POWER_IN"
-			(at 48.514 64.262 90)
+			(at 45.212 72.898 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8131,9 +8103,6 @@
 		)
 		(pin "2"
 			(uuid "d2608052-21de-4d7a-9feb-19cbcb7dde73")
-		)
-		(pin "6"
-			(uuid "1ee62925-a0ae-430b-ac8b-7f5990c274d4")
 		)
 		(instances
 			(project ""
